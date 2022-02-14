@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/Theme.Gachatab"
+    >
+
+    <RadioGroup
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/secframe"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:translationY="-15dp"
+
+        >
+
+        <RadioButton
+            android:id="@+id/alone"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/pixelus"
+            android:text="@string/alone"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/noodle"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/pixelus"
+            android:text="@string/noodle"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/AllF"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/pixelus"
+            android:text="@string/All"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:background="@drawable/textframe"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/pixxa"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#494949"
+        android:textSize="25sp"
+        android:translationY="0dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="106dp"
+        android:layout_height="65dp"
+        android:foreground="@drawable/randombutton"
+        android:translationY="35dp" />
+
+
+</LinearLayout>

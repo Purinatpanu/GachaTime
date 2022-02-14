@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Gacha Time</string>
+    <string name="tab_text_1">Food</string>
+    <string name="tab_text_2">Drink</string>
+    <string name="tab_text_3">Dessert</string>
+    <string name="tab_text_4">Custom</string>
+    <string name="gacha_time">Gacha Time</string>
+    <string name="alone">อาหารจานเดียว</string>
+    <string name="noodle">อาหารเส้น</string>
+    <string name="All">ทั้งหมด</string>
+    <string name="add">Add</string>
+    <string name="show">show</string>
+    <string name="organizer">Organizer</string>
+    <string name="supachai_chomchuey">: Supachai Chomchuey :</string>
+    <string name="document_organizer_email">Document Organizer : Email</string>
+    <string name="thiraphat_ninsiri">: Thiraphat Ninsiri :</string>
+
+</resources>

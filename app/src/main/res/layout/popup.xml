@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:background="@drawable/cussec"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/organizer"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:fontFamily="@font/pixxa"/>
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rolesec"
+                android:fontFamily="@font/amd"
+                android:gravity="center"
+                android:text="@string/supachai_chomchuey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:background="@drawable/namesec"
+                android:id="@+id/role1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/document_organizer_email"
+                android:textStyle="italic"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textColor="#0035D4"
+                android:fontFamily="@font/amd"/>
+
+            <TextView
+                android:background="@drawable/rolesec"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/thiraphat_ninsiri"
+                android:textSize="45sp"
+                android:gravity="center"
+                android:fontFamily="@font/amd"
+                />
+
+            <TextView
+                android:background="@drawable/namesec"
+                android:id="@+id/role2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="UI Design : Email"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="#0035D4"
+                android:fontFamily="@font/amd"/>
+
+            <TextView
+                android:background="@drawable/rolesec"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=": Phurinat Phanupongsakun :"
+                android:textSize="45sp"
+                android:gravity="center"
+                android:fontFamily="@font/amd"/>
+
+            <TextView
+                android:background="@drawable/namesec"
+                android:id="@+id/role3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Developer : Email"
+                android:textSize="40sp"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textColor="#0035D4"
+                android:fontFamily="@font/amd"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rolesec"
+                android:fontFamily="@font/amd"
+                android:gravity="center"
+                android:text=": Sangtawan Phuphum :"
+                android:textSize="45sp" />
+            <TextView
+                android:background="@drawable/namesec"
+                android:id="@+id/role4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tester / Dev Support : Email"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="#0035D4"
+                android:fontFamily="@font/amd"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

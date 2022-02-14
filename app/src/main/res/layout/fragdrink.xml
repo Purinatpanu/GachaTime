@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame2"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <RadioGroup
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/secframe"
+        android:translationY="-15dp"
+        >
+
+
+        <RadioButton
+            android:id="@+id/cof"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="20sp"
+            android:fontFamily="@font/pixelus"
+            android:text="กาแฟ/นม/ชา" />
+
+        <RadioButton
+            android:id="@+id/sofr"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="20sp"
+            android:fontFamily="@font/pixelus"
+            android:text="ผลไม้/โซดา" />
+
+        <RadioButton
+            android:id="@+id/all"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="20sp"
+            android:fontFamily="@font/pixelus"
+            android:text="ทั้งหมด" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:background="@drawable/textframe"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/pixxa"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#494949"
+        android:textSize="25sp"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="106dp"
+        android:layout_height="65dp"
+
+        android:foreground="@drawable/randombutton"
+        android:translationY="35dp" />
+
+
+</LinearLayout>
