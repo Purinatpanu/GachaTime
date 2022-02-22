@@ -1,1 +1,2 @@
 "# GachaTime" 
+for study Application
